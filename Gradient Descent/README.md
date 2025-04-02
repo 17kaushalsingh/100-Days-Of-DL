@@ -11,8 +11,6 @@
     - This haphazaedness in SGD is sometimes better as it helps to capture GLOBAL MINIMA, whereas BGD may get trapped in LOCAL MINIMA
 ![alt text](image-1.png)
 
-    - 
-
 # Batch Gradient Descent
     - Vanilla Gradient Descent
     - Works on entire dataset
