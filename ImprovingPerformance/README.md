@@ -26,3 +26,28 @@
     - Overfitting
         + L1 and L2 loss
         + Dropouts
+
+
+## Performance Improvement Checklist
+
+    - 1. Overfitting
+        + Dropout Layers
+        + Regularization
+        + Early Stopping
+
+
+    - 2. Normalization
+        + Normalizing inputs
+        + Batch normalizing
+        + Normalizing activations
+
+
+    - 3. Vanishing Gradients
+        + Activation functions
+        + Weight initialization
+
+
+    - 4. Gradient Checking and Clipping
+
+
+    - 5. Optimizers
