@@ -74,9 +74,84 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
         + NOT ZERO CENTRED ==> Use batch normalization
         + Dying ReLU
 
-<br><br>
-
-## Dying ReLU Problem
+### Dying ReLU Problem
     - Some neurons always output 0
     - They become dead neurons
-    - 
+    - Once a neuron is dead, it's forever dead
+    - If some negative input is given, the derivative becomes 0, which stops updation of weights
+
+    - It can occur in two situations:
+        + learning rate is too high
+        + high negative bias
+
+    - Solutions:
+        + Set a lower learning rate
+        + Set a positive bias (0.01)
+        + Don't use ReLU
+![alt text](image-9.png)    
+<br><br>
+
+## Leaky ReLU
+![alt text](image-10.png)
+
+    - Range: (-inf, inf)
+
+    - the factor could be 0.1 or 0.01 or some other small value
+
+    - Advantages
+        + Some small gradient keeps flowing in the system even for negative values
+        + NON SATURATED
+        + Computationally inexpensive
+        + NO DYING ReLU
+        + Close to ZERO CENTRED (NOT PERFECT though)
+
+    - Disadvantages
+        + 
+        + 
+        + 
+<br><br>
+
+## Parametric Relu
+![alt text](image-11.png)
+
+    - Range: (-inf, inf)
+
+    - a is a trainable parameter, hence can be tuned according to given data
+
+    - Best choice for hidden layers
+
+    - Other things are similar to Leaky ReLU
+<br><br>
+
+## Exponential Linear Unit
+![alt text](image-12.png)
+
+    - Range: (-a, inf]
+
+    - a is generally between 0.1 to 0.3
+
+    - Advantages
+        + Performance was better than ReLU 
+        + Always continuous and differentiable, even at x=0
+        + CLose to ZERO CENTRED, hence convergence is faster
+        + NO DYING ReLU
+
+    - Disadvantages
+        + Computationally expensive
+<br><br>
+
+## Scaled Exponential Linear Unit
+![alt text](image-13.png)
+
+    - Range: (0, inf]
+
+    - a and lambda are not trainable, they are fixed parameters
+
+    - Advantages
+        + Self normalizing function, hence converges faster
+            + mean ~= 0, std ~= 1
+        + All other things are similar to ELU
+
+    - Disadvantages
+        + Not thoroughly researched
+<br><br>
