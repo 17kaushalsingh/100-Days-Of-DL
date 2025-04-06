@@ -4,21 +4,46 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - absl-py
   - appnope
   - asttokens
+  - bzip2
+  - ca-certificates
+  - certifi
+  - charset-normalizer
+  - comm
   - debugpy
   - decorator
   - exceptiongroup
   - executing
+  - idna
+  - importlib-metadata
+  - ipykernel
+  - ipython
+  - ipython_pygments_lexers
   - jedi
+  - jupyter_client
+  - jupyter_core
+  - krb5
   - libcxx
+  - libedit
+  - libexpat
   - libffi
+  - liblzma
+  - liblzma-devel
+  - libsodium
+  - libsqlite
+  - libzlib
+  - matplotlib-inline
+  - namex
   - ncurses
+  - nest-asyncio
   - openssl
   - packaging
   - parso
   - pexpect
   - pickleshare
+  - pip
   - platformdirs
   - prompt-toolkit
   - psutil
@@ -26,11 +51,14 @@ dependencies:
   - pure_eval
   - pygments
   - python-dateutil
+  - python_abi=3.12
+  - pyzmq
   - readline
   - setuptools
   - six
   - sqlite
   - stack_data
+  - termcolor
   - tk
   - tornado
   - traitlets
@@ -38,6 +66,8 @@ dependencies:
   - wcwidth
   - wheel
   - xz
+  - xz-gpl-tools
+  - xz-tools
   - zeromq
   - zipp
   - zlib
