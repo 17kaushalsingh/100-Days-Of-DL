@@ -69,6 +69,7 @@ Disadvantages
 
 # Huber Loss
 ![alt text](image-2.png)
+![alt text](image-6.png)
 
 Advantages
 
@@ -76,6 +77,7 @@ Advantages
     - mse magnifies loss at outliers
     - Huber loss balances both using hyperparameter delta
     - Works best when significant number of outliers are present in data
+    - Derivable at all points
 
 # Binary Cross Entropy
 
