@@ -7,8 +7,7 @@ conda env create -f tf.yml
 ```
 To verify if tensorflow is installed properly, run the below command and check for tensorflow version
 ```sh
-conda activate tf
-python -c "import tensorflow as tf; print(f'TensorFlow version: {tf.__version__}')"
+conda activate tf && python -c "import tensorflow as tf; print(f'TensorFlow version: {tf.__version__}')"
 ```
 
 ## References
