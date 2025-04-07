@@ -15,6 +15,7 @@
     - Normalization can be applied before activation (more popular)
     - Normalization can be applied after activation as well
     - Normaization mu and std is calculated for one batch of activations for an individual neuron
+    - The mu and std data is for a particular neuron, the different values are from the same batch
 
 ![alt text](image-3.png)
 
