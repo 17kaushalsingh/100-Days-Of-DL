@@ -22,3 +22,8 @@
 
 # Keras Implementation
 ![alt text](image-3.png)
+
+# Summary
+    - Start with Adam
+    - Then try RMSProp
+    - Hyperparameter tuning

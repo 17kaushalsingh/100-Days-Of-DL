@@ -7,4 +7,7 @@
 
     - Beta is generally 0.95
     - Using EWMA so that only the latest gradients are given importance
-    
+
+## No disadvantage
+    - It's just that adam is better tham RMSProp
+    - RMS Prop does not have any problem as such
