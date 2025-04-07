@@ -19,3 +19,6 @@
     - NAG
     - RMS Prop
     - Adam
+
+# Keras Implementation
+![alt text](image-3.png)

@@ -16,3 +16,8 @@
     - Benifit: SPEED
     - High curvature, consistent gradients, and noisy gradients (local minima)
     - Agar pehle k gradients ek particular direction me leja rhe hain, to us direction me or tezi se jao
+
+## Mathematical Formulation
+![alt text](image-2.png)
+
+    - beta is called the decay factor
