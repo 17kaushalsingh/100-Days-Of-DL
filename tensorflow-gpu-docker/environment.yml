@@ -1,0 +1,23 @@
+name: tf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - cudatoolkit=11.8.0
+  - cudnn=8.9.2.26
+  - pip:
+      - tensorflow==2.15.0
+      - numpy
+      - pandas
+      - matplotlib
+      - scikit-learn
+      - jupyterlab
+      - ipykernel
+      - tensorboard
+      - seaborn
+      - mlxtend
+      - pillow
+      - h5py
+      - scipy
