@@ -15,3 +15,4 @@
     1. Problem 3 (Age and Gender Prediction)
 
 # 5. RNN
+    1. Watch the forward propagation video in RNNs again
