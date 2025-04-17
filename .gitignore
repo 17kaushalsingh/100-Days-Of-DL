@@ -3,3 +3,7 @@
 *.DS_Store
 *.keras
 *.ipynb_checkpoints
+
+## Google Drive
+# Temporary upload files
+*.tmp.driveupload*
