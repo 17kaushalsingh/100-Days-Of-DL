@@ -1,5 +1,3 @@
-## Types of RNN
-## Backpropagation in RNN
 ## Problems in RNNs
 ## LSTM
 ## GRU
