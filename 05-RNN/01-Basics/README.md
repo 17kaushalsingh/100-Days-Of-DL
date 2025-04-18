@@ -23,14 +23,5 @@
     - Time series forecasting
     - Speech classification
 
-## Types of RNN
 
-## Backpropagation in RNN
 
-## Problems in RNNs
-
-## LSTM
-## GRU
-## Deep RNN
-## Bidirectional RNN
-## Sequence to Sequence RNNS
