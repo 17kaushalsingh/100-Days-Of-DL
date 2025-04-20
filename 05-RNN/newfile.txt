@@ -1,4 +1,3 @@
-## Problems in RNNs
 ## LSTM
 ## GRU
 ## Deep RNN
