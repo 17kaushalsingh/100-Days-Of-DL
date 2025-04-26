@@ -1,11 +1,11 @@
 ## Integer Encoding
     - Form vocabulary of all unique words
     - Encode each word with a unique integer
-![alt text](image.png)
+![alt text](../../README_Assets/05-RNN/02-SentimentAnalysisUsingRNN/image.png)
 
     - But since words are of different sizes
     - We do padding
-![alt text](image-1.png)
+![alt text](../../README_Assets/05-RNN/02-SentimentAnalysisUsingRNN/image-1.png)
 
 ## Embeddings
     - The vectors generated in this case are real valued vectors
@@ -15,6 +15,6 @@
     - Eg: word2vec, glove
     - In keras, we have a dedicated layer for embeddings, which can learn embedding from data
     - For embeddin, the data should be integer encoded
-![alt text](image-2.png)
+![alt text](../../README_Assets/05-RNN/02-SentimentAnalysisUsingRNN/image-2.png)
 
     - Generally, the custom embeddings are better than pretrained word2vec or glove embeddings

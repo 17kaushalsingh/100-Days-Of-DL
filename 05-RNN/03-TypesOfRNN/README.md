@@ -9,7 +9,7 @@
     - Input: SEQUENTIAL DATA
     - Output: SCALAR
     - Use case: SENTIMENT ANALYSIS, RATING PREDICTION
-![alt text](image.png)
+![alt text](../../README_Assets/05-RNN/03-TypesOfRNN/image.png)
 
 ## One to Many
     - Input: NON SEQUENTIAL DATA (fed at once)

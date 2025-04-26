@@ -6,7 +6,7 @@
     - The weightage of previous points decays over time
 
 ## Formula
-![alt text](image-1.png)
+![alt text](../../README_Assets/01-ANN/18-Optimizers and EWMA/image-1.png)
 
     - V is the EWMA
     - Theta is the independent variable
@@ -17,4 +17,4 @@
     
     - Generally, beta is 0.9 in DL algorithms and optimization problems
 
-![alt text](image-2.png)
+![alt text](../../README_Assets/01-ANN/18-Optimizers and EWMA/image-2.png)

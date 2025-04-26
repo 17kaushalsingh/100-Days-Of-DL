@@ -20,4 +20,4 @@
 
 
 
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/14-Regularization/image.png)

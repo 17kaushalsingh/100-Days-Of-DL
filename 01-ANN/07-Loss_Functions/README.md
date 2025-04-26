@@ -1,5 +1,5 @@
 # Loss Function
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image.png)
 
 # Loss Functions in DL
 
@@ -68,8 +68,8 @@ Disadvantages
     - Need to calculate sub gradients instead of gradients to apply Gradient Descent
 
 # Huber Loss
-![alt text](image-2.png)
-![alt text](image-6.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-2.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-6.png)
 
 Advantages
 
@@ -87,10 +87,10 @@ Advantages
     - Activation function should be sigmoid to use log loss as loss
 
 ## Mathematical Formulation of Loss Function
-![alt text](image-3.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-3.png)
 
 ## Mathematical Formulation of Cost Function
-![alt text](image-4.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-4.png)
 
 Advantages
 
@@ -109,7 +109,7 @@ Disadvantages
     - One Hot Encode the output column
 
 ## Mathematical Formulation of Loss Function
-![alt text](image-5.png)
+![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-5.png)
 
 ## Mathematical Formulation of Cost Function
 

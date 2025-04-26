@@ -1,5 +1,5 @@
 # Optimizers in Deep Learning
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/18-Optimizers and EWMA/image.png)
 
     - Most commonly used optimizer is GD
     - Types of GD: Batch, Stochastic, Mini batch
@@ -21,7 +21,7 @@
     - Adam
 
 # Keras Implementation
-![alt text](image-3.png)
+![alt text](../../README_Assets/01-ANN/18-Optimizers and EWMA/image-3.png)
 
 # Summary
     - Start with Adam

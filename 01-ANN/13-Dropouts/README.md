@@ -4,10 +4,10 @@
     - It is kind of in each epoch, the neural network architecture is different
     - So it kind of ensemble learning
     - Random forest is similar to Dropouts
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/13-Dropouts/image.png)
 
     - Dropouts is applied only at the time of training, not at the time of testing
-![alt text](image-1.png)
+![alt text](../../README_Assets/01-ANN/13-Dropouts/image-1.png)
 
 # Tips
     - If overfitting, increase parameter 'p' for Dropouts

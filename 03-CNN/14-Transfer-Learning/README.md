@@ -1,6 +1,6 @@
 # Transfer Learning
 
-![alt text](image.png)
+![alt text](../../README_Assets/03-CNN/14-Transfer-Learning/image.png)
 
     - We freeze the convolutional part
     - We change the architecture of our fully connected layers as per our use case

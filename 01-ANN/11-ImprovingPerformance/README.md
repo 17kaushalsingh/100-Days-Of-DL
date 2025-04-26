@@ -1,6 +1,6 @@
 # How to Improve Neural Network
 
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/11-ImprovingPerformance/image.png)
 
 ## Hyperparameters
     - Number of hidden layers

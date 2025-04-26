@@ -1,10 +1,10 @@
 # Convolutional Neural Network
 
     - Inspired by huamn visual cortex
-![alt text](image.png)
+![alt text](../../README_Assets/03-CNN/01-Basics/image.png)
 
     - Why ANNs fail over image data
-![alt text](image-1.png)
+![alt text](../../README_Assets/03-CNN/01-Basics/image-1.png)
 
 ## Layers in CNN
 

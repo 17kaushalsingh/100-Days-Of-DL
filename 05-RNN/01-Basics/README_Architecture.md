@@ -5,7 +5,7 @@
 
 ## Data structure for RNNs
     - (batch_size, time_steps, input_features)
-![alt text](image.png)
+![alt text](../../README_Assets/05-RNN/01-Basics/image.png)
 
 ## RNN Architecture
     - Input is fed according to timestamps
@@ -14,8 +14,8 @@
     - For the first timestamp, the feedback could be zeros or random numbers
     - The recurrent connections also have weights
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](../../README_Assets/05-RNN/01-Basics/image-2.png)
+![alt text](../../README_Assets/05-RNN/01-Basics/image-3.png)
 
 ## Forward Propagation in RNNs
 ### Unfolding Through Time
@@ -24,4 +24,4 @@
     - Helps process the information in sequences
 
 ## Simplified Representation
-![alt text](image-5.png)
+![alt text](../../README_Assets/05-RNN/01-Basics/image-5.png)

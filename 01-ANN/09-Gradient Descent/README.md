@@ -9,7 +9,7 @@
     - Loss decreases haphazaedly in Stochastic GD
     - Loss decreases smoothly in Batch GD
     - This haphazaedness in SGD is sometimes better as it helps to capture GLOBAL MINIMA, whereas BGD may get trapped in LOCAL MINIMA
-![alt text](image-1.png)
+![alt text](../../README_Assets/01-ANN/09-Gradient Descent/image-1.png)
 
 # Batch Gradient Descent
     - Vanilla Gradient Descent
@@ -24,7 +24,7 @@
     - Num of updates = Num of rows * Num of epochs
     - batch_size = 1
 
-![alt text](image.png)
+![alt text](../../README_Assets/01-ANN/09-Gradient Descent/image.png)
 
 
 # Mini Batch Gradient Descent
