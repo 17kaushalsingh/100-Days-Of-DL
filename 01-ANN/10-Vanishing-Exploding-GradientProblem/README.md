@@ -19,3 +19,6 @@
 # Exploding Gradient Problem
     - Occurs mostly in RNN
     - If all derivatives are larger than 1, the overall change is very large
+    - Use gradient clipping to tackle exploding gradients
+        + Individual gradient clipping if the gradient exceeds a certain number
+        + L2 norm based gradient clipping, scale the vector to the apt. threshold
