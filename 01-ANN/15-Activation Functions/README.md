@@ -1,6 +1,6 @@
 # Activation Functions
 
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image.png)
+![alt text](image.png)
 
     - Activation function should be non linear
     - Activation function should be differentiable
@@ -22,7 +22,7 @@
 <br><br>
 
 ## SIGMOID
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-3.png) </br>
+![alt text](image-3.png) </br>
 
 $\sigma(x) = \frac{1}{1 + e^{-x}}$
 
@@ -40,8 +40,8 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 <br><br>
 
 ## TANH
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-5.png) </br>
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-6.png)
+![alt text](image-5.png) </br>
+![alt text](image-6.png)
 
     - Range: (-1, 1)
 
@@ -56,8 +56,8 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 <br><br>
 
 ## RELU
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-7.png) <br>
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-8.png)
+![alt text](image-7.png) <br>
+![alt text](image-8.png)
 
     - Range: (0, inf]
 
@@ -88,11 +88,11 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
         + Set a lower learning rate
         + Set a positive bias (0.01)
         + Don't use ReLU
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-9.png)    
+![alt text](image-9.png)    
 <br><br>
 
 ## Leaky ReLU
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-10.png)
+![alt text](image-10.png)
 
     - Range: (-inf, inf)
 
@@ -112,7 +112,7 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 <br><br>
 
 ## Parametric Relu
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-11.png)
+![alt text](image-11.png)
 
     - Range: (-inf, inf)
 
@@ -124,7 +124,7 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 <br><br>
 
 ## Exponential Linear Unit
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-12.png)
+![alt text](image-12.png)
 
     - Range: (-a, inf]
 
@@ -141,7 +141,7 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 <br><br>
 
 ## Scaled Exponential Linear Unit
-![alt text](../../README_Assets/01-ANN/15-Activation Functions/image-13.png)
+![alt text](image-13.png)
 
     - Range: (0, inf]
 

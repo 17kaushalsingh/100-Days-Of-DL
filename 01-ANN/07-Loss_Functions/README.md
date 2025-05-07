@@ -1,5 +1,5 @@
 # Loss Function
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image.png)
+![alt text](image.png)
 
 # Loss Functions in DL
 
@@ -33,9 +33,7 @@
 
 # Mean Squared Error
 
-    - Also called mse
-    - Also called Squared Loss
-    - Also called L2 Loss
+    - Also called mse, squared loss, L2 loss
     - Magnifies those points 
     - Activation function should be linear to use mse as loss
 
@@ -52,9 +50,7 @@ Disadvantages
 
 # Mean Absolute Error
 
-    - Also called mae
-    - Also called Absolute Loss
-    - Also called L1 Loss
+    - Also called mae, absolute loss, L1 loss
 
 Advantages
 
@@ -68,8 +64,8 @@ Disadvantages
     - Need to calculate sub gradients instead of gradients to apply Gradient Descent
 
 # Huber Loss
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-2.png)
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-6.png)
+![alt text](image-2.png)
+![alt text](image-6.png)
 
 Advantages
 
@@ -87,10 +83,10 @@ Advantages
     - Activation function should be sigmoid to use log loss as loss
 
 ## Mathematical Formulation of Loss Function
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-3.png)
+![alt text](image-3.png)
 
 ## Mathematical Formulation of Cost Function
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-4.png)
+![alt text](image-4.png)
 
 Advantages
 
@@ -109,7 +105,7 @@ Disadvantages
     - One Hot Encode the output column
 
 ## Mathematical Formulation of Loss Function
-![alt text](../../README_Assets/01-ANN/07-Loss_Functions/image-5.png)
+![alt text](image-5.png)
 
 ## Mathematical Formulation of Cost Function
 

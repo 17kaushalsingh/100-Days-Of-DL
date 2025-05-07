@@ -9,8 +9,8 @@
     Perceptron Loss Function
     
 ### Perceptron Loss Function
-![alt text](../../README_Assets/01-ANN/01-Perceptron/image.png)
-![alt text](../../README_Assets/01-ANN/01-Perceptron/image-1.png)
-![alt text](../../README_Assets/01-ANN/01-Perceptron/image-2.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ### Multi Layer Perceptron

@@ -42,26 +42,26 @@
         => He init gives better result
 
 ## Xavier-Glorat Normal
-![alt text](../../README_Assets/01-ANN/16-Weights Initialization/image.png)
+![alt text](image.png)
 
     + Variance of weights initialized should be 1/n, where n = no of inputs being recieved at a given layer
     + factor in multiplication with rand values should be root of 1/n, that is the std
 
 ## He Normal
-![alt text](../../README_Assets/01-ANN/16-Weights Initialization/image-1.png)
+![alt text](image-1.png)
 
     + Variance of weights initialized should be 2/n, where n = no of inputs being recieved at a given layer
     + factor in multiplication with rand values should be root of 2/n, that is the std
 
 ## Xavier-Glorat Uniform
-![alt text](../../README_Assets/01-ANN/16-Weights Initialization/image-2.png)
+![alt text](image-2.png)
 
 ## He Unifrom
-![alt text](../../README_Assets/01-ANN/16-Weights Initialization/image-3.png)
+![alt text](image-3.png)
 
 # Keras
 
     - Default in keras: glorot_unoform
     
 
-![alt text](../../README_Assets/01-ANN/16-Weights Initialization/image-4.png)
+![alt text](image-4.png)

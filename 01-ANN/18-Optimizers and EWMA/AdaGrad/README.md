@@ -4,8 +4,8 @@
         + Features are sparse (Most of the values are 0), leading to elongated bowl problem
 
 ## Sparse features cause elongated bowl problem
-![alt text](../../../README_Assets/01-ANN/18-Optimizers and EWMA/AdaGrad/image.png)
-![alt text](../../../README_Assets/01-ANN/18-Optimizers and EWMA/AdaGrad/image-1.png)
+![alt text](image.png)
+![alt text](image-1.png)
 
     - Sparsity in a feature leads to slower updates of params
 
@@ -15,7 +15,7 @@
     - Adjust the lr of a param to a larger value if the gradient is too small
 
 ## Mathematical formulation
-![alt text](../../../README_Assets/01-ANN/18-Optimizers and EWMA/AdaGrad/image-2.png)
+![alt text](image-2.png)
 
     - Epsilon is a very small no, kept just to avoid 0 in denominator
 

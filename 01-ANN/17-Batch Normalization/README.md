@@ -1,8 +1,8 @@
 # Batch Normalization
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image.png)
+![alt text](image.png)
 
 ## Covariate Shift and Internal Covariate Shift
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image-1.png)
+![alt text](image-1.png)
 
     - Basically, it is normalizing the intermediate activations from the hidden layers
     - Reduces internal covariate shift
@@ -10,14 +10,14 @@
     - Applied on a layer by layer basis
 
 ## IMP
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image-2.png)
+![alt text](image-2.png)
 
     - Normalization can be applied before activation (more popular)
     - Normalization can be applied after activation as well
     - Normaization mu and std is calculated for one batch of activations for an individual neuron
     - The mu and std data is for a particular neuron, the different values are from the same batch
 
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image-3.png)
+![alt text](image-3.png)
 
     - Sometimes, batch normalization is not required, so we use gamma and beta for flexibility
     - After normalization, the values are transformed as gamma times z(n) + beta
@@ -30,10 +30,10 @@
     - EMWA mu and std are not learnable
 
 ## Benifits
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image-4.png)
+![alt text](image-4.png)
 
 ## Keras implementation
-![alt text](../../README_Assets/01-ANN/17-Batch Normalization/image-5.png)
+![alt text](image-5.png)
 
 ## Summary
     - At each batch normalization layer

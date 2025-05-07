@@ -1,6 +1,6 @@
 # Early Stopping
 
-![alt text](../../README_Assets/01-ANN/12-EarlyStopping/image.png)
+![alt text](image.png)
 
 ## Arguments
 
