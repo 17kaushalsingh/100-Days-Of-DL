@@ -16,38 +16,25 @@
         + Weights initialization
         + Change activation function
         + Batch normalization
-        + Gradient clipping (for exploding)
+        
+    - Exploding gradients
+        + Gradient clipping
+
     - Not enough data
         + Transfer learning
         + Unsupervised pretraining
+        + Data augmentation
+
     - Slow training
-        + Optimizers
-        + Learning rate scheduler
+        + Choosing right optimizers
+        + Learning rate scheduler (warming up the LR)
+
     - Overfitting
-        + L1 and L2 loss
+        + L1 and L2 Regularization
         + Dropouts
-
-
-## Performance Improvement Checklist
-
-    - 1. Overfitting
-        + Dropout Layers
-        + Regularization
         + Early Stopping
 
-
-    - 2. Normalization
+    - Normalization
         + Normalizing inputs
         + Batch normalizing
         + Normalizing activations
-
-
-    - 3. Vanishing Gradients
-        + Activation functions
-        + Weight initialization
-
-
-    - 4. Gradient Checking and Clipping
-
-
-    - 5. Optimizers
