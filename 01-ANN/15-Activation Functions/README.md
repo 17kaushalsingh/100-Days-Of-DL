@@ -97,10 +97,7 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
     + NO DYING ReLU
     + Close to ZERO CENTRED (NOT PERFECT though)
 
-    - Disadvantages
-        + 
-        + 
-        + 
+- Disadvantages
 
 ## Parametric Relu
 ![alt text](image-11.png)
