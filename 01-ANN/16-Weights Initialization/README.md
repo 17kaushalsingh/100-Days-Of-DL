@@ -55,5 +55,5 @@
 ![alt text](image-3.png)
 
 # Keras
-- Default in keras: glorot_unoform
+- Default in keras: glorat_uniform
 ![alt text](image-4.png)
