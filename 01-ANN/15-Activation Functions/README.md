@@ -113,7 +113,7 @@ $\sigma(x) = \frac{1}{1 + e^{-x}}$
 ## Exponential Linear Unit
 ![alt text](image-12.png)
 
-- Range: (-a, inf]
+- Range: [-a, inf)
 
 - a is generally between 0.1 to 0.3
 
