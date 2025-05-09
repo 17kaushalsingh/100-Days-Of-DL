@@ -2,7 +2,8 @@
 ## conda env create -f tf_gpu.yml
 
 # To verify if tensorflow is installed properly with GPU support, run the below command and check for tensorflow version
-## conda activate tf && python -c "import tensorflow as tf; print("Num GPUs Available:", len(tf.config.list_physical_devices('GPU')))"
+## conda activate tf && python -c "import tensorflow as tf; print("TensorFlow version:", tf.__version__); print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU'))); print("GPU Details:", tf.config.list_physical_devices('GPU'))"
+
 
 name: tf
 channels:
