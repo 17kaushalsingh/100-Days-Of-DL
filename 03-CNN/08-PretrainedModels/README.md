@@ -1,4 +1,3 @@
 # Pretrained Models
-
-    - Image Net Dataset
-    - Image Net Challenge
+- Image Net Dataset
+- Image Net Challenge

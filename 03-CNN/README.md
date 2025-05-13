@@ -3,6 +3,8 @@
 ![alt text](image.png)
 - Why ANNs fail over image data
 ![alt text](image-1.png)
+- What Does a CNN See: VIsualizing CNNs
+https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/
 
 ## Layers in CNN
 - Convolutional Layer
