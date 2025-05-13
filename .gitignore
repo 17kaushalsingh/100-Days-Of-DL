@@ -1,6 +1,5 @@
 *.zip
 *.DS_Store
-*.keras
 *.ipynb_checkpoints
 
 ## Google Drive
