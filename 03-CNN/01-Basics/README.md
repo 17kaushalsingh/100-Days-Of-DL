@@ -1,9 +1,4 @@
-# Convolutional Neural Network
-- Inspired by huamn visual cortex
-![alt text](image.png)
-- Why ANNs fail over image data
-![alt text](image-1.png)
-
+# Inspired by Human Visual Cortex
 ## Human Brain Visual Cortex and CNN Analogy
 ![alt text](2-image.png)
 
@@ -16,13 +11,7 @@
 ## Pattern Detection
 ![alt text](2-image-3.png)
 
-## Layers in CNN
-- Convolutional Layer
-- Pooling Layer
-- Fully Connected Layer
-
 # Baiscs of Images
-
 ## Gray Scale Images
 - Grid of values from 0 to 255 (or normalized by /255)
 - 0 means Black
