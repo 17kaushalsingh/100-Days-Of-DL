@@ -20,6 +20,12 @@
     - Reducing computational complexity
     - Reducing traioning time
 
+## Strides: How to apply in Keras
+- In any convolutional or pooling layer, add a parameter `padding=`
+- The values could be `valid` or `same`
+- `valid:` no padding
+- `same:` padding in such a way that feature map is same dimensions as input matrix
+
 # Pooling Layers
 Problems with Convolution Operation
 - Need to0 much memory in CPU
