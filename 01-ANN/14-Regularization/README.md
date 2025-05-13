@@ -1,6 +1,6 @@
 # Regularization
-    - Helps reduce overfitting
-    - Try applying regularization whenever overfitting occurs
+- Helps reduce overfitting
+- Try applying regularization whenever overfitting occurs
 ![alt text](image.png)
 
 ## L1 Regularization (LASSO)

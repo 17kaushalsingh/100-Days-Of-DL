@@ -4,83 +4,75 @@
 # Loss Functions in DL
 
 ## Regression
-    - mean_squared_error
-    - mean_absolute_error
-    - huber_loss
+- mean_squared_error
+- mean_absolute_error
+- huber_loss
 
 ## Classification
-    - binary_cross_entropy
-    - categorical_crossentropy
-    - sparese_categoricalcross_entropy
-    - hinge_loss
+- binary_cross_entropy
+- categorical_crossentropy
+- sparese_categoricalcross_entropy
+- hinge_loss
 
 ## Autoencoders
-    - kl_divergence
+- kl_divergence
 
 ## Generative Adverserial Neural Network
-    - discriminator_loss
-    - min_max_gan
+- discriminator_loss
+- min_max_gan
 
 ## Object Detection
-    - focal_loss
+- focal_loss
 
 ## Embeddings
-    - triplet_loss
+- triplet_loss
 
 # Loss Function vs Cost Function
-    - Loss function is calculated for a single training example
-    - Cost function is calculated for the entire training batch
+- Loss function is calculated for a single training example
+- Cost function is calculated for the entire training batch
 
 # Mean Squared Error
-
-    - Also called mse, squared loss, L2 loss
-    - Magnifies those points 
-    - Activation function should be linear to use mse as loss
+- Also called mse, squared loss, L2 loss
+- Magnifies those points 
+- Activation function should be linear to use mse as loss
 
 Advantages
-
-    - Easy to interpret
-    - Differentiable
-    - Only one local minima, which is also the global minima
+- Easy to interpret
+- Differentiable
+- Only one local minima, which is also the global minima
 
 Disadvantages
-
-    - The error has its units squared
-    - Not robust to outliers
+- The error has its units squared
+- Not robust to outliers
 
 # Mean Absolute Error
-
-    - Also called mae, absolute loss, L1 loss
+- Also called mae, absolute loss, L1 loss
 
 Advantages
-
-    - Easy to interpret and intuitive
-    - Unit of errors is same as input
-    - Robust to outliers
+- Easy to interpret and intuitive
+- Unit of errors is same as input
+- Robust to outliers
 
 Disadvantages
-
-    - The curve is not differentiable
-    - Need to calculate sub gradients instead of gradients to apply Gradient Descent
+- The curve is not differentiable
+- Need to calculate sub gradients instead of gradients to apply Gradient Descent
 
 # Huber Loss
 ![alt text](image-2.png)
 ![alt text](image-6.png)
 
 Advantages
-
-    - mae treats outliers as normal points
-    - mse magnifies loss at outliers
-    - Huber loss balances both using hyperparameter delta
-    - Works best when significant number of outliers are present in data
-    - Derivable at all points
+- mae treats outliers as normal points
+- mse magnifies loss at outliers
+- Huber loss balances both using hyperparameter delta
+- Works best when significant number of outliers are present in data
+- Derivable at all points
 
 # Binary Cross Entropy
-
-    - Also called log loss
-    - Used in Binary Classification Problems
-    - Example: used in logistic regression
-    - Activation function should be sigmoid to use log loss as loss
+- Also called log loss
+- Used in Binary Classification Problems
+- Example: used in logistic regression
+- Activation function should be sigmoid to use log loss as loss
 
 ## Mathematical Formulation of Loss Function
 ![alt text](image-3.png)
@@ -88,14 +80,12 @@ Advantages
 ## Mathematical Formulation of Cost Function
 ![alt text](image-4.png)
 
-Advantages
+### Advantages
+- Differentiable
 
-    - Differentiable
-
-Disadvantages
-
-    - Not straightforward and intuitive
-    - Multiple local minimas
+### Disadvantages
+- Not straightforward and intuitive
+- Multiple local minimas
 
 # Categorical Cross Entropy
 
@@ -108,12 +98,11 @@ Disadvantages
 ![alt text](image-5.png)
 
 ## Mathematical Formulation of Cost Function
-
-    - Take average of all losses
+- Take average of all losses
 
 
 # Sparse Categorical Cross Entropy
-    - Similar to categorical cross entropy
-    - Categorical Cross Entropy: ONE HOT ENCODE
-    - Sparese Categorical Cross Entropy: INTEGER ENCODE
-    - Sparse Categorical Cross Entropy is Faster than Categorical Cross Entropy
+- Similar to categorical cross entropy
+- Categorical Cross Entropy: ONE HOT ENCODE
+- Sparese Categorical Cross Entropy: INTEGER ENCODE
+- Sparse Categorical Cross Entropy is Faster than Categorical Cross Entropy

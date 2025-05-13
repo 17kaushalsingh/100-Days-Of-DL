@@ -3,10 +3,10 @@
 ## Artificial Neural Networks
 
 ### Perceptron
-    Perceptron
-    Perceptron vs Human Neuron
-    Perceptron Trick
-    Perceptron Loss Function
+- Perceptron
+- Perceptron vs Human Neuron
+- Perceptron Trick
+- Perceptron Loss Function
     
 ### Perceptron Loss Function
 ![alt text](image.png)
