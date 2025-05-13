@@ -1,5 +1,0 @@
-## LSTM
-## GRU
-## Deep RNN
-## Bidirectional RNN
-## Sequence to Sequence RNNS
