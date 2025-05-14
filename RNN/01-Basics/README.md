@@ -8,8 +8,8 @@
 - Textual data (input) can be of varying sizes
 - Zero padding leads to unnecessary calculations
 - When words are converted to vectors
-    + it increases computational cost
-    + increases complexity (more number of weights and baises)
+    - it increases computational cost
+    - increases complexity (more number of weights and baises)
 - Even if we go ahead, the test data could be of different size (exceeding the input paddings)
 - Totally disregarding the sequential information, but the sequence contains some meaning
 
@@ -50,5 +50,3 @@
 
 ## Simplified Representation
 ![alt text](image-5.png)
-
-
