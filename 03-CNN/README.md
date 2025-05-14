@@ -22,7 +22,7 @@ https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-
 - Dot product and activation functions
 
 ## Trainable params in CNN
-- Weights: Num filters * Channels * Filter Size
-- Bias: Num filters
+- Weights: num_filters * num_channels * filter_size
+- Bias: num_filters
 - In CNN, num of trainable params depends on architecture, not on input data
 - In ANN, increasing image resolution increases num of trainable params, hence increases training time
