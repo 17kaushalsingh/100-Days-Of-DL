@@ -1,5 +1,4 @@
 # Problems in RNNs
-
 RNNs are not used much with sequential data because:
 
 1. Problem of long term dependencies
