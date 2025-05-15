@@ -5,6 +5,7 @@
 - RNNs have a memory feature, which makes them suitable for sequential data
 
 ## Why ANNs or CNNs fail on sequential data
+- We need to vectorise the data to feed in an ANN
 - Textual data (input) can be of varying sizes
 - Zero padding leads to unnecessary calculations
 - When words are converted to vectors
@@ -26,7 +27,7 @@
 # Architecture and Forward Propagation in RNNs
 - Unlike ANNs (where all data is fed at once), RNNs take input based on timestamps
 - ANN is a feed forward network, RNN has a state which provides feedback to previous layers
-- A simple RNN can process upto 10 previous timestamps
+- `A simple RNN can process upto 10 previous timestamps`
 
 ## Data structure for RNNs
 - (batch_size, time_steps, input_features)
@@ -35,15 +36,15 @@
 ## RNN Architecture
 - Input is fed according to timestamps
 - At time t=1, only x11 is fed, at t=2 x12 is fed and so on
-- When the forward prop for t=2 happens, the network recieves two inputs x=12, and the outputs of the previous activations from the same layer
+- When the forward prop for t=2 happens, the network recieves two inputs x=12 (weighted with usual weights), and the outputs of the previous activations (weighted with the weights of the hidden layers) from the same layer
 - For the first timestamp, the feedback could be zeros or random numbers
 - The recurrent connections also have weights
+- `Default activation function of all SimpleRNNs is tanh`
 
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
-## Forward Propagation in RNNs
-### Unfolding Through Time
+## Forward Propagation in RNNs (Unfolding Through Time)
 - Basically means that the recurrent layer works as a loop
 - Uses concept of parameter or weights sharing
 - Helps process the information in sequences
