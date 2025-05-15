@@ -3,6 +3,30 @@ import re
 import shutil
 
 def relocate_images_for_markdown(root_dir):
+    """
+    Relocates image files referenced in Markdown files to a centralized 'README_Assets' directory
+    within the specified root directory, and updates the Markdown files to point to the new image locations.
+
+    This function recursively searches for Markdown (.md) files under `root_dir`, finds image references
+    in the Markdown content, and for each local image:
+      - Moves the image to the 'README_Assets' directory, preserving its relative path structure.
+      - Updates the Markdown file to reference the new image location.
+      - Skips images that are already in 'README_Assets' or are remote URLs.
+      - Skips Markdown files that already reference 'README_Assets/'.
+
+    Args:
+        root_dir (str): The root directory to search for Markdown files and images.
+
+    Notes:
+        - Only image references using Markdown syntax (![alt](path)) are processed.
+        - Supported image extensions: .png, .jpg, .jpeg, .gif, .bmp, .webp, .svg
+        - If an image file does not exist at the referenced path, the reference is left unchanged.
+        - The original image file is deleted after being copied to the new location.
+        - Prints the path of each Markdown file that is updated.
+
+    Example:
+        relocate_images_for_markdown('/path/to/project')
+    """
     asset_root = os.path.join(root_dir, 'README_Assets')
     os.makedirs(asset_root, exist_ok=True)
 

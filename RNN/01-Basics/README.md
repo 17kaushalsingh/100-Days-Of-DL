@@ -52,6 +52,10 @@
 ## Simplified Representation
 ![alt text](image-5.png)
 
+# BackPropagation in RNNs (Unfolding through time)
+![alt text](image-6.png)
+![alt text](image-7.png)
+
 # Types of RNNs
 1. Many to One
 2. One to Many

@@ -1,2 +1,0 @@
-# BackPropagation through Time
-
