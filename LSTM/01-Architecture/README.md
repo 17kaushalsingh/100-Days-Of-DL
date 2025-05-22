@@ -31,7 +31,7 @@
 - H<sub>t</sub> and C<sub>t</sub> are vectors of equal dimension
 - Forget gate has f<sub>t</sub>
 - Input gate has i<sub>t</sub> and $\bar{C}$<sub>t</sub>
-- Output gate has O<sub>t</sub>>
+- Output gate has O<sub>t</sub>
 - All, H, C, f, i, C, O, are of equal dimensions
 
 ## PointWise Operations
