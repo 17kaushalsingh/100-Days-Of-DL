@@ -1,16 +1,14 @@
 # Gated Recurrent Units (GRU)
-
 - GRUs are simpler architectures than LSTMs (less number of parameters to solve for)
 - Because of simpler architecture, the training for GRUs is lesser compared to LSTMs
 - Results from GRUs are comparable to LSTMs
 
-## The Idea Behind GRUs
+## The Core Idea Behind GRUs
 - Only two gates
     - `RESET GATE`
     - `UPDATE GATE`
 
 - No Cell State
-
 - A single hidden state is used to maintain and manipulate both short term and long term context
 
 ![alt text](image.png)
@@ -26,7 +24,10 @@
 3. Output: `Calculate hidden state / output for the current timestamp`
 
 ## Gates in GRU
+- `RESET GATE: `This gate determines how much of the information to keep from H<sub>t-1</sub> and pass for calculation of $\tilde{H_t}$
+- `UPDATE GATE: `This gate balances how much importance to give to H<sub>t-1</sub> and $\tilde{H_t}$ for calculation of H<sub>t</sub>
 
+## IMP
 - H<sub>t-1</sub>: Hidden state of the previous timestamp
 - H<sub>t</sub>: Hidden state for the current timestamp (or the output of the current timestamp)
 - X<sub>t</sub>: Input sequence for the current timestamp
@@ -38,6 +39,15 @@
 - `Number of units in each neural layers is same for all layers in the GRU`
 - `Dimension of intermediate vectors == Number of units in each neural layer`
 
-## RESET GATE
+# Flow of Information
+1. Calculate `RESET GATE` <br>
+R<sub>t</sub> = sigmoid (Weights . concat(H<sub>t-1</sub>, X<sub>t</sub>) + Bias)
 
-## UPDATE GATE
+2. Calculate `UPDATE GATE` <br>
+Z<sub>t</sub> = sigmoid (Weights . concat(H<sub>t-1</sub>, X<sub>t</sub>) + Bias)
+
+3. Calculate `CANDIDATE HIDDEN STATE` <br>
+$\tilde{H_t}$ = tanh (Weights . concat(H<sub>t-1</sub> ⓧ R<sub>t</sub>, X<sub>t</sub>) + Bias)
+
+4. Calculate `HIDDEN STATE for CURRENT TIMESTAMP` <br>
+H<sub>t</sub> = Z<sub>t</sub> ⓧ $\tilde{H_t}$ + (1-Z<sub>t</sub>) ⓧ H<sub>t-1</sub>
