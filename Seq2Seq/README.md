@@ -20,3 +20,20 @@ Eg: Machine Translation Eng --> Hindi
 - Teacher forcing is only followed during the train time
 
 - At the test time, the actual outputs recieved are propagated to the next cells. That is, teacher forcing is not applied
+
+# Improving Performance of Seq2Seq Models
+1. Use embeddings
+    - Embeddings are low dimensional dense representaions of the vectors
+    - Use embeddings in both the encoder block as well as the decoder block
+    - May use pretrained embeddings as well as trainable embedding layers
+
+2. Use Deep LSTM cells while formulating the architecture
+    - Helps capture long term dependencies (useful in long inputs such as paragraphs, books, etc)
+    - Increases overall model capability to learn very minute features (provided enough training data is there to mitigate overfitting)
+    - Helps learn the heirarchical representation of the data
+
+3. Reverse the input vector
+    - Eg: Input: Think About It, Output: Soch Lo
+    - We could send it as: Input: It About Think, Output: Lo Soch
+    - This is not helpful always, but for languages like english where the initial words do the heavylifting this may be helpful
+    - The idea is to reduce the distance of Think and Soch, weird but works
