@@ -71,3 +71,5 @@ The singlemost challenge in any NLP task is `vectorization`
 - So for high variance matrix, when passing to softmax, the outputs are either very small or very large
 - This could lead to vanishing gradient if not scaled
 - Hence scaling helps in stablizing the training
+
+## Why exactly $ \sqrt{k}$
