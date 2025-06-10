@@ -68,5 +68,6 @@ The singlemost challenge in any NLP task is `vectorization`
 - We scale the outputs because of the nature of dot product
 - low dimensional vectors -> low variance
 - high dimensional vectors -> high variance
-- So if dimens
-- This helps in stablizing the training
+- So for high variance matrix, when passing to softmax, the outputs are either very small or very large
+- This could lead to vanishing gradient if not scaled
+- Hence scaling helps in stablizing the training
