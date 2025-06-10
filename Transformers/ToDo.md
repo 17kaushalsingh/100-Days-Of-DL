@@ -2,7 +2,7 @@
 ## ~~1. Introduction to Transformers~~
 ## ~~2. What is Self Attention~~
 ## ~~3. Self Attention in Transformers~~
-## 4. Scaled Dot Product Attention
+## ~~4. Scaled Dot Product Attention~~
 ## 5. Geometric Intuition of Self Attention
 ## 6. Why is Self Attention Called Self
 ## 7. Multihead Attention in Transformers
