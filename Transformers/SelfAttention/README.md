@@ -60,3 +60,13 @@ The singlemost challenge in any NLP task is `vectorization`
 # FINAL
 - Get raw embeddings
 - Generate Query, Key and Value vectors from embeddings
+![alt text](image-11.png)
+
+# Scaled Dot Product Attention
+![alt text](image-12.png)
+- d<sub>k</sub> is the dimensionality of the k (key) vector
+- We scale the outputs because of the nature of dot product
+- low dimensional vectors -> low variance
+- high dimensional vectors -> high variance
+- So if dimens
+- This helps in stablizing the training
