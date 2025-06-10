@@ -33,7 +33,6 @@ The singlemost challenge in any NLP task is `vectorization`
 - No training parameters are involved (speeds up training, but the embeddings thus generated are task independent general embeddings)
 - Parallelisation loses the sequential information
 - At this stage, there is a need to introduce weights and biases
-- 
 
 ## Contextual Embeddings
 - Every vector has three roles to play
@@ -44,3 +43,20 @@ The singlemost challenge in any NLP task is `vectorization`
 - But every vector is doing the roles itself
 - At this stage, we need three vectors emerging out of each vector who will do the three tasks separately
 - This is helpful in separation of tasks
+- So we create three new vectors from each vector
+![alt text](image-7.png)
+
+### The final picture
+![alt text](image-8.png)
+
+## How to Make Three Vectors From One Vector
+- Do linear transformation (by multiplying with some matrices) to obtain new vectors
+- The matrices (to be multiped by) are found during the training
+![alt text](image-9.png)
+![alt text](image-10.png)
+- The three multiplication vectors are same for all words
+
+
+# FINAL
+- Get raw embeddings
+- Generate Query, Key and Value vectors from embeddings
