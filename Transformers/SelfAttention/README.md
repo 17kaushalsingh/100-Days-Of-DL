@@ -56,7 +56,6 @@ The singlemost challenge in any NLP task is `vectorization`
 ![alt text](image-10.png)
 - The three multiplication vectors are same for all words
 
-
 # FINAL
 - Get raw embeddings
 - Generate Query, Key and Value vectors from embeddings
@@ -72,4 +71,15 @@ The singlemost challenge in any NLP task is `vectorization`
 - This could lead to vanishing gradient if not scaled
 - Hence scaling helps in stablizing the training
 
-## Why exactly $ \sqrt{k}$
+## Why exactly $\sqrt{d_k}$
+- Variance increases linearly as the dimension of the vectors
+- Since scaling x by $\lambda$ scales the variance by $\lambda^2$
+- Therefore scaling by $\sqrt{d_k}$ scales the variance by d<sub>k</sub>
+
+# Geometric Intuition of Self Attention
+![alt text](image-13.png)
+
+# Why Self Attention is Attention and rather called Self Attention
+- Similar mathematical operations as the Luong attention
+- Luong attention is calculated between words of input and output sequence (eg: English seq and Hindi seq)
+- But, self attention is calculated between words of the same sequence
