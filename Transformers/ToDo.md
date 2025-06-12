@@ -1,7 +1,6 @@
 # Part 1
-### 1. Multihead Attention in Transformers
-### 2. Positional Encoding in Transformers
 ### 3. Layer Normalization in Transformers
+### 2. Positional Encoding in Transformers
 
 # Part 2
 ### 1. Transformer Architecture: Encoder
